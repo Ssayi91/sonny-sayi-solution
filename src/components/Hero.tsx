@@ -45,7 +45,7 @@ export default function Hero() {
     <p className="mt-8 max-w-md leading-[1.8] text-muted">
       The spreadsheets, WhatsApp threads, unreliable networks and outdated
       websites eventually become the system. We replace them with technology
-      built around how your business actually works.
+      built around how your business works.
     </p>
 
     <div className="mt-12 flex flex-wrap items-center gap-10">
@@ -83,7 +83,7 @@ export default function Hero() {
       </p>
     </div>
     <p className="mt-6 font-mono text-[10px] uppercase tracking-[0.3em] text-muted">
-      Est. Nairobi
+      Established in Nairobi
     </p>
   </div>
 </div>
