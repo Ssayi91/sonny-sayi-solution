@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --color-deep: #0A0F0C;
+  --color-surface: #111A14;
+  --color-ink: #E8EDE9;
+  --color-muted: #7C8A80;
+  --color-green: #22C55E;
+
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+
+  --animate-breathe: breathe 8s ease-in-out infinite;
+  --animate-pulse-dot: pulseDot 2.4s ease-in-out infinite;
+  --animate-marquee: marquee 20s linear infinite;
+}
+
+@keyframes breathe {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.04); }
+}
+@keyframes pulseDot { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+@keyframes rise {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+@keyframes marquee {
+  to { transform: translateX(-50%); }
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--color-deep);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Film grain — the paper texture */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+::selection { background: var(--color-green); color: var(--color-deep); }
+
+/* Headline reveal */
+.line-mask { display: block; overflow: hidden; }
+.line-mask > span {
+  display: block;
+  transform: translateY(100%);
+  animation: rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Outlined figure numbers */
+.text-outline {
+  -webkit-text-stroke: 1px rgba(232, 237, 233, 0.4);
+  color: transparent;
+}
