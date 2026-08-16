@@ -7,7 +7,7 @@ const systems = [
     meta: "Web Platform — Car Marketplace",
     cure:
       "Buying a used car often starts with the same problem: too many listings, too little confidence. We built a marketplace where buyers can see the vehicle, identify the seller, verify the dealer's physical location and start a direct conversation on WhatsApp. Less guessing. More information before the buyer makes the call.",
-    live: "https://www.autoshowkenya.co.ke",
+    live: "https://www.autoshowkenya.co.ke", blank: true,
     liveLabel: "autoshowkenya.co.ke",
   },
   {
@@ -16,7 +16,7 @@ const systems = [
     meta: "Custom Application — Hyperlocal Logistics",
     cure:
       "Finding a boda in the neighborhood should not require a platform taking a cut from the rider. We built a local directory that lets residents find riders by stage, view their details and call them directly. No dispatch layer. No commission. The rider keeps the fare, and the customer gets a direct connection.",
-    live: "https://www.callboda.top",
+    live: "https://www.callboda.top", blank: true,
     liveLabel: "callboda.top",
   },
   {
@@ -25,7 +25,7 @@ const systems = [
     meta: "Web Platform — Advocacy & Research",
     cure:
       "Important research becomes difficult to discover when it lives across scattered documents, articles and conversations. We built a dedicated digital platform that brings research, reflections and resources around linguistic human rights and Deaf culture into one structured place. The work becomes searchable, accessible and easier to understand.",
-    live: "https://sidelined-gem-main.vercel.app",
+    live: "https://sidelined-gem-main.vercel.app", blank: true,
     liveLabel: "the sidelined gem",
   },
 ];
