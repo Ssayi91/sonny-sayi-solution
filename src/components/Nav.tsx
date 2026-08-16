@@ -39,9 +39,9 @@ export default function Nav() {
   }, []);
 
   const links = [
-    { name: "Field Reports", href: "#cures", icon: <IconReport /> },
-    { name: "Portfolio", href: "#proof", icon: <IconSystems /> },
-    // { name: "The Journal", href: "#journal", icon: <IconJournal /> },
+    { name: "Field Reports", href: "/#cures", icon: <IconReport /> },
+    { name: "Portfolio", href: "/#proof", icon: <IconSystems /> },
+    { name: "The Journal", href: "/journal", icon: <IconJournal /> },
   ];
 
   return (
