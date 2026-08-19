@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Fraunces, Inter } from "next/font/google";
 import "./global.css";
 import Nav from "../components/Nav";
+import WhatsAppFab from "../components/WhatsappFab";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
@@ -21,8 +22,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${fraunces.variable} ${inter.variable} font-sans bg-deep text-ink antialiased`}>
-        <Nav />
-        {children}
+       <Nav />
+<WhatsAppFab />
+{children}
       </body>
     </html>
   );
