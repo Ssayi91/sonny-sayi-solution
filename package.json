@@ -2,12 +2,17 @@
   "name": "sonny-sayi-solutions",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
+  
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "eslint",
+  "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+  "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+  "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload"
+}
+,
   "dependencies": {
     "gray-matter": "^4.0.3",
     "next": "16.4.6",
