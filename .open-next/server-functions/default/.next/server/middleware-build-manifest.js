@@ -1,0 +1,80 @@
+globalThis.__BUILD_MANIFEST = {
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "polyfillFiles": [
+    "static/chunks/0cz1d0mv5g_q7.js"
+  ],
+  "lowPriorityFiles": [
+    "static/c9R65ec3spqX_R0_87Nhd/_buildManifest.js",
+    "static/c9R65ec3spqX_R0_87Nhd/_ssgManifest.js",
+    "static/c9R65ec3spqX_R0_87Nhd/_clientMiddlewareManifest.js"
+  ],
+  "rootMainFiles": [
+    "static/chunks/1pcw6gskne7pf.js",
+    "static/chunks/0vm8zo6v48m9c.js",
+    "static/chunks/2-liacn1-fmrj.js",
+    "static/chunks/3ncqdelv46e8a.js",
+    "static/chunks/turbopack-2u1d16houkiyo.js"
+  ],
+  "rootMainFilesTree": {},
+  "pagesChunkGroupBootstrapParams": {
+    "/page": {
+      "otherChunks": [
+        "static/chunks/1pcw6gskne7pf.js",
+        "static/chunks/0vm8zo6v48m9c.js",
+        "static/chunks/2-liacn1-fmrj.js",
+        "static/chunks/3ncqdelv46e8a.js"
+      ],
+      "runtimeModuleIds": [
+        94553
+      ]
+    },
+    "/_not-found/page": {
+      "otherChunks": [
+        "static/chunks/1pcw6gskne7pf.js",
+        "static/chunks/0vm8zo6v48m9c.js",
+        "static/chunks/2-liacn1-fmrj.js",
+        "static/chunks/3ncqdelv46e8a.js"
+      ],
+      "runtimeModuleIds": [
+        94553
+      ]
+    },
+    "/_global-error/page": {
+      "otherChunks": [
+        "static/chunks/1pcw6gskne7pf.js",
+        "static/chunks/0vm8zo6v48m9c.js",
+        "static/chunks/2-liacn1-fmrj.js",
+        "static/chunks/3ncqdelv46e8a.js"
+      ],
+      "runtimeModuleIds": [
+        94553
+      ]
+    },
+    "/journal/page": {
+      "otherChunks": [
+        "static/chunks/1pcw6gskne7pf.js",
+        "static/chunks/0vm8zo6v48m9c.js",
+        "static/chunks/2-liacn1-fmrj.js",
+        "static/chunks/3ncqdelv46e8a.js"
+      ],
+      "runtimeModuleIds": [
+        94553
+      ]
+    },
+    "/journal/[slug]/page": {
+      "otherChunks": [
+        "static/chunks/1pcw6gskne7pf.js",
+        "static/chunks/0vm8zo6v48m9c.js",
+        "static/chunks/2-liacn1-fmrj.js",
+        "static/chunks/3ncqdelv46e8a.js"
+      ],
+      "runtimeModuleIds": [
+        94553
+      ]
+    }
+  },
+  "chunkLoadingGlobal": "TURBOPACK"
+};

@@ -1,0 +1,27 @@
+{
+  "app": {
+    "[project]/src/app/_not-found/page": [
+      "static/media/068444135650a82f-s.p.24u93d7s5mbjp.woff2",
+      "static/media/c4d7be43e05ae6b0-s.p.2-8nwwlkvso64.woff2",
+      "static/media/07c7676b89ed2778-s.p.2bn3s6zvc0dyp.woff2"
+    ],
+    "[project]/src/app/journal/[slug]/page": [
+      "static/media/068444135650a82f-s.p.24u93d7s5mbjp.woff2",
+      "static/media/c4d7be43e05ae6b0-s.p.2-8nwwlkvso64.woff2",
+      "static/media/07c7676b89ed2778-s.p.2bn3s6zvc0dyp.woff2"
+    ],
+    "[project]/src/app/journal/page": [
+      "static/media/068444135650a82f-s.p.24u93d7s5mbjp.woff2",
+      "static/media/c4d7be43e05ae6b0-s.p.2-8nwwlkvso64.woff2",
+      "static/media/07c7676b89ed2778-s.p.2bn3s6zvc0dyp.woff2"
+    ],
+    "[project]/src/app/page": [
+      "static/media/068444135650a82f-s.p.24u93d7s5mbjp.woff2",
+      "static/media/c4d7be43e05ae6b0-s.p.2-8nwwlkvso64.woff2",
+      "static/media/07c7676b89ed2778-s.p.2bn3s6zvc0dyp.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

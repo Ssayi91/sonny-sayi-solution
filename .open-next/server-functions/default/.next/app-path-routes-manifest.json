@@ -1,0 +1,8 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/journal/[slug]/page": "/journal/[slug]",
+  "/journal/page": "/journal",
+  "/page": "/",
+  "/sitemap.xml/route": "/sitemap.xml"
+}

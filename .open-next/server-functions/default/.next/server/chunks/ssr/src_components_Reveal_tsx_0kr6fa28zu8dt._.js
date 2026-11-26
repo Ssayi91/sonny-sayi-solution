@@ -1,0 +1,3 @@
+module.exports=[349,a=>{"use strict";var b=a.i(87924),c=a.i(72131);a.s(["default",0,function({children:a,delay:d=0}){let e=(0,c.useRef)(null),[f,g]=(0,c.useState)(!1);return(0,c.useEffect)(()=>{let a=new IntersectionObserver(([b])=>{b.isIntersecting&&(g(!0),a.unobserve(b.target))},{threshold:.1});return e.current&&a.observe(e.current),()=>a.disconnect()},[]),(0,b.jsx)("div",{ref:e,className:`transition-all duration-1000 ease-out ${f?"translate-y-0 opacity-100":"translate-y-8 opacity-0"}`,style:{transitionDelay:`${d}ms`},children:a})}])}];
+
+//# sourceMappingURL=src_components_Reveal_tsx_0kr6fa28zu8dt._.js.map
